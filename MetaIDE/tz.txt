@@ -1,0 +1,29 @@
+- web server
+- clone git repository
+
+idea:
+  we have a code and we need meta information about code. 
+  Sometimes we need ask about some chunk of code, or get help to improve some chunk of code
+  
+
+:
+  - when viewing code on meta ide site, necessary get easy access to:
+    - test code or create it code
+    - easy navigation
+    - easy view of user changes (CI for VCS)
+    
+  - certain line of code on the web page must have:
+    - todo
+    - forum
+    - review request
+    - tag
+    
+ - developer (dev) can:
+   - send link to code to another developer
+
+ another developer(dev2) can:
+   - view current code of dev
+   - correct chunk of code for dev
+   - write or edit test for it code
+   - write message (todo, fixme etc) that binding to code
+   - 
