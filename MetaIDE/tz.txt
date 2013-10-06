@@ -1,6 +1,3 @@
-- web server
-- clone git repository
-
 idea:
   we have a code and we need meta information about code. 
   Sometimes we need ask about some chunk of code, or get help to improve some chunk of code
@@ -27,3 +24,17 @@ idea:
    - write or edit test for it code
    - write message (todo, fixme etc) that binding to code
    - 
+
+workflow:
+  - dev can add message to code if he get some error 
+  and afterwards another dev can read this message and understand context and fix this trouble
+  
+profit:
+ - we dont lose context of decisions in code
+ - we can doing staticstics of most troubles code and other statistics.
+ 
+ Realize:
+  - web server
+  - it clone git repository (user set repo url)
+  - show sources from certain branch
+  - bindind meta info to line of code
